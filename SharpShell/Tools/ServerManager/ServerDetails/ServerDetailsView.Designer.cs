@@ -72,7 +72,7 @@
             this.textBox32BitServer.Location = new System.Drawing.Point(128, 30);
             this.textBox32BitServer.Name = "textBox32BitServer";
             this.textBox32BitServer.ReadOnly = true;
-            this.textBox32BitServer.Size = new System.Drawing.Size(230, 20);
+            this.textBox32BitServer.Size = new System.Drawing.Size(232, 20);
             this.textBox32BitServer.TabIndex = 1;
             // 
             // textBox64BitServer
@@ -82,7 +82,7 @@
             this.textBox64BitServer.Location = new System.Drawing.Point(127, 56);
             this.textBox64BitServer.Name = "textBox64BitServer";
             this.textBox64BitServer.ReadOnly = true;
-            this.textBox64BitServer.Size = new System.Drawing.Size(230, 20);
+            this.textBox64BitServer.Size = new System.Drawing.Size(232, 20);
             this.textBox64BitServer.TabIndex = 3;
             // 
             // label7
@@ -96,8 +96,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.textBoxAssociations);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.textBoxAssemblyPath);
@@ -110,9 +108,10 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(3, 3);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox1.Location = new System.Drawing.Point(2, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(376, 198);
+            this.groupBox1.Size = new System.Drawing.Size(378, 198);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Server";
@@ -124,7 +123,7 @@
             this.textBoxAssociations.Location = new System.Drawing.Point(128, 161);
             this.textBoxAssociations.Name = "textBoxAssociations";
             this.textBoxAssociations.ReadOnly = true;
-            this.textBoxAssociations.Size = new System.Drawing.Size(230, 20);
+            this.textBoxAssociations.Size = new System.Drawing.Size(232, 20);
             this.textBoxAssociations.TabIndex = 11;
             // 
             // label8
@@ -143,7 +142,7 @@
             this.textBoxAssemblyPath.Location = new System.Drawing.Point(128, 135);
             this.textBoxAssemblyPath.Name = "textBoxAssemblyPath";
             this.textBoxAssemblyPath.ReadOnly = true;
-            this.textBoxAssemblyPath.Size = new System.Drawing.Size(230, 20);
+            this.textBoxAssemblyPath.Size = new System.Drawing.Size(232, 20);
             this.textBoxAssemblyPath.TabIndex = 9;
             // 
             // label6
@@ -162,7 +161,7 @@
             this.textBoxServerSecurity.Location = new System.Drawing.Point(128, 109);
             this.textBoxServerSecurity.Name = "textBoxServerSecurity";
             this.textBoxServerSecurity.ReadOnly = true;
-            this.textBoxServerSecurity.Size = new System.Drawing.Size(230, 20);
+            this.textBoxServerSecurity.Size = new System.Drawing.Size(232, 20);
             this.textBoxServerSecurity.TabIndex = 7;
             // 
             // textBoxServerCLSID
@@ -172,7 +171,7 @@
             this.textBoxServerCLSID.Location = new System.Drawing.Point(128, 83);
             this.textBoxServerCLSID.Name = "textBoxServerCLSID";
             this.textBoxServerCLSID.ReadOnly = true;
-            this.textBoxServerCLSID.Size = new System.Drawing.Size(230, 20);
+            this.textBoxServerCLSID.Size = new System.Drawing.Size(232, 20);
             this.textBoxServerCLSID.TabIndex = 5;
             // 
             // textBoxServerType
@@ -182,7 +181,7 @@
             this.textBoxServerType.Location = new System.Drawing.Point(128, 57);
             this.textBoxServerType.Name = "textBoxServerType";
             this.textBoxServerType.ReadOnly = true;
-            this.textBoxServerType.Size = new System.Drawing.Size(230, 20);
+            this.textBoxServerType.Size = new System.Drawing.Size(232, 20);
             this.textBoxServerType.TabIndex = 3;
             // 
             // textBoxServerName
@@ -192,7 +191,7 @@
             this.textBoxServerName.Location = new System.Drawing.Point(128, 31);
             this.textBoxServerName.Name = "textBoxServerName";
             this.textBoxServerName.ReadOnly = true;
-            this.textBoxServerName.Size = new System.Drawing.Size(230, 20);
+            this.textBoxServerName.Size = new System.Drawing.Size(232, 20);
             this.textBoxServerName.TabIndex = 1;
             // 
             // label4
@@ -233,30 +232,28 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.textBox32BitServer);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.textBox64BitServer);
             this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Location = new System.Drawing.Point(0, 207);
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox2.Location = new System.Drawing.Point(2, 198);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(376, 91);
+            this.groupBox2.Size = new System.Drawing.Size(378, 91);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Installation";
             // 
             // groupBoxRegistration
             // 
-            this.groupBoxRegistration.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBoxRegistration.Controls.Add(this.textBox32BitServerRegistration);
             this.groupBoxRegistration.Controls.Add(this.label9);
             this.groupBoxRegistration.Controls.Add(this.textBox64BitServerRegistration);
             this.groupBoxRegistration.Controls.Add(this.label10);
-            this.groupBoxRegistration.Location = new System.Drawing.Point(0, 304);
+            this.groupBoxRegistration.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBoxRegistration.Location = new System.Drawing.Point(2, 289);
             this.groupBoxRegistration.Name = "groupBoxRegistration";
-            this.groupBoxRegistration.Size = new System.Drawing.Size(376, 91);
+            this.groupBoxRegistration.Size = new System.Drawing.Size(378, 91);
             this.groupBoxRegistration.TabIndex = 2;
             this.groupBoxRegistration.TabStop = false;
             this.groupBoxRegistration.Text = "Registration";
@@ -268,7 +265,7 @@
             this.textBox32BitServerRegistration.Location = new System.Drawing.Point(128, 30);
             this.textBox32BitServerRegistration.Name = "textBox32BitServerRegistration";
             this.textBox32BitServerRegistration.ReadOnly = true;
-            this.textBox32BitServerRegistration.Size = new System.Drawing.Size(230, 20);
+            this.textBox32BitServerRegistration.Size = new System.Drawing.Size(232, 20);
             this.textBox32BitServerRegistration.TabIndex = 1;
             // 
             // label9
@@ -287,7 +284,7 @@
             this.textBox64BitServerRegistration.Location = new System.Drawing.Point(127, 56);
             this.textBox64BitServerRegistration.Name = "textBox64BitServerRegistration";
             this.textBox64BitServerRegistration.ReadOnly = true;
-            this.textBox64BitServerRegistration.Size = new System.Drawing.Size(230, 20);
+            this.textBox64BitServerRegistration.Size = new System.Drawing.Size(232, 20);
             this.textBox64BitServerRegistration.TabIndex = 3;
             // 
             // label10
@@ -307,7 +304,8 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "ServerDetailsView";
-            this.Size = new System.Drawing.Size(382, 437);
+            this.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Size = new System.Drawing.Size(382, 436);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
